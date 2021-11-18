@@ -1,0 +1,363 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "external/pybind11",
+					"jsonFile" : "directory-external.pybind11-Release-868bf4008866ee8f945b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "external/pybind11"
+				},
+				{
+					"build" : "external/spdlog",
+					"jsonFile" : "directory-external.spdlog-Release-35f4a856ea892a098f37.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "external/spdlog",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "external/backward-cpp",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-external.backward-cpp-Release-84e5fcd58f890677b921.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "external/backward-cpp",
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				},
+				{
+					"build" : "zeno",
+					"jsonFile" : "directory-zeno-Release-ede74415f2e3daac3924.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "zeno",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "pyzeno",
+					"jsonFile" : "directory-pyzeno-Release-a3ac092e45c963e024cc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "pyzeno",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "external/glad",
+					"jsonFile" : "directory-external.glad-Release-37f0033dbad014580c42.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "external/glad",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "zenvis",
+					"jsonFile" : "directory-zenvis-Release-25fd1ac2449271941b7c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "zenvis",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "projects",
+					"childIndexes" : 
+					[
+						9,
+						11
+					],
+					"jsonFile" : "directory-projects-Release-c729a5c1694c04275523.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "projects"
+				},
+				{
+					"build" : "projects/ZenoFX",
+					"childIndexes" : 
+					[
+						10
+					],
+					"jsonFile" : "directory-projects.ZenoFX-Release-705cc75e6e68ab780dd4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 0,
+					"source" : "projects/ZenoFX",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "projects/ZenoFX/ZFX",
+					"jsonFile" : "directory-projects.ZenoFX.ZFX-Release-5bdaefc1eaaf05d16287.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 4,
+					"source" : "projects/ZenoFX/ZFX",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "projects/oldzenbase",
+					"jsonFile" : "directory-projects.oldzenbase-Release-7d1227e7c4c919f261a5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 0,
+					"source" : "projects/oldzenbase",
+					"targetIndexes" : 
+					[
+						9
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						11
+					],
+					"name" : "zeno",
+					"targetIndexes" : 
+					[
+						3,
+						4,
+						5,
+						7,
+						8,
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "pybind11",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "spdlog",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "backward",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "ZFX",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 10,
+					"id" : "ZFX::@d8d51cc38badc856ac19",
+					"jsonFile" : "target-ZFX-Release-2f271668868cc4066a66.json",
+					"name" : "ZFX",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "backward::@43efb1d68f3b7f2bf60f",
+					"jsonFile" : "target-backward-Release-2cc071803ddaed4c2bc7.json",
+					"name" : "backward",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "backward_object::@43efb1d68f3b7f2bf60f",
+					"jsonFile" : "target-backward_object-Release-25292a80c722ff0c4aba.json",
+					"name" : "backward_object",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "glad::@55512df44c152ef9a2ca",
+					"jsonFile" : "target-glad-Release-d0b046ce093819658121.json",
+					"name" : "glad",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "pylib_zeno::@6c11091d2faf0abc2165",
+					"jsonFile" : "target-pylib_zeno-Release-7c6c847c648b6bf17b8b.json",
+					"name" : "pylib_zeno",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "pylib_zenvis::@83541d88169ef79e44c3",
+					"jsonFile" : "target-pylib_zenvis-Release-3e5e11b7014ee0dbc0e6.json",
+					"name" : "pylib_zenvis",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "spdlog::@e2ce52242414c9d53ee8",
+					"jsonFile" : "target-spdlog-Release-ae6f95c1858c127ab256.json",
+					"name" : "spdlog",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "zeno::@c7d76091cffb0e56c22f",
+					"jsonFile" : "target-zeno-Release-13a36768d9936b41cbe2.json",
+					"name" : "zeno",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "zeno_ZenoFX::@20e5b1abd85770b2451d",
+					"jsonFile" : "target-zeno_ZenoFX-Release-0ca98e6ba89245c595ec.json",
+					"name" : "zeno_ZenoFX",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "zeno_oldzenbase::@4dc777e936ac7e391049",
+					"jsonFile" : "target-zeno_oldzenbase-Release-504aad3392380fe474b2.json",
+					"name" : "zeno_oldzenbase",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/navier/Documents/Daily Practice/zeno/build",
+		"source" : "/home/navier/Documents/Daily Practice/zeno"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,1 @@
+/bin/x86_64-linux-gnu-g++-10 -fPIC  -w -O3 -DNDEBUG -flto -shared  -o ../../zenqt/bin/pylib_zeno.cpython-39-x86_64-linux-gnu.so CMakeFiles/pylib_zeno.dir/main.cpp.o  -Wl,-rpath,"/home/navier/Documents/Daily Practice/zeno/zenqt/bin" ../../zenqt/bin/libzeno.so ../../zenqt/bin/libspdlog.a -lpthread 
